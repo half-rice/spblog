@@ -46,4 +46,4 @@ bower.json
 .powenv
 
 # Ignore password stuff
-database.yml
+/config/database.yml

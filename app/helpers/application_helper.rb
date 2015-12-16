@@ -18,4 +18,19 @@ module ApplicationHelper
     rand(max_value)
   end
 
+  def get_random_welcome()
+    opening = ["ohai there, didn't see you come in",
+               "wsup",
+               "konichiwa motherfucker",
+               "hola senor"]
+    middle = ["find your pursuasion",
+              "what jo lookin for mang?",
+              "hahahah i'm out of shit to think of"]
+    ending = ["goodbye",
+              "adios",
+              "sayonara"]
+
+    "#{opening[rand(4)]} #{middle[rand(3)]} #{ending[rand(3)]}"
+  end
+
 end
